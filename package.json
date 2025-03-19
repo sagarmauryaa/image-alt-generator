@@ -1,0 +1,23 @@
+{
+  "name": "image-alt-text-generator",
+  "version": "1.0.1",
+  "description": "AI-powered image alt text generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "AI",
+    "image",
+    "alt text",
+    "accessibility"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.87.3"
+  }
+}
